@@ -46,6 +46,10 @@ class Random extends React.Component {
     })
   }
 
+  handleToggleClick() {
+    
+  }
+
   render() {
     return (
       <div>
