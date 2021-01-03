@@ -6,19 +6,20 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import { LinkContainer } from 'react-router-bootstrap';
-import Home from '.home';
+import Home from './home';
 import '../App.css';
+import Resume from './resume.js';
 
-// function Home() {
-//     return (
-//         <span>Home</span>
-//     )
-// }
-function Resume(){
+function Homes() {
     return (
-        <span>Resume</span>
+        <span>Homes </span>
     )
 }
+// function Resume(){
+//     return (
+//         <span>Resume</span>
+//     )
+// }
 
 function Projects(){
     return (
@@ -36,35 +37,32 @@ const Navbar = () => (
                   <ul>
                       <li>
                         <Link to="/">
-                            <Home />
+                            Home
                         </Link>
                       </li>
                       <li>
                         <Link to="/resume">
-                            <Resume />
+                            Resume
                         </Link>
                       </li>
                       <li>
                         <Link to="/projects">
-                            <Projects />
+                            Projects
                         </Link>
                       </li>
                   </ul>
               </nav>
-        </h2>
-        <h2>
-          Navigate to{' '}
-          <ButtonToolbar className="custom-btn-toolbar">
-            <LinkContainer to="/">
-              <Button>Home</Button>
-            </LinkContainer>
-            <LinkContainer to="/resume">
-              <Button>Resume</Button>
-            </LinkContainer>
-            <LinkContainer to="/projects">
-              <Button>Projects</Button>
-            </LinkContainer>
-          </ButtonToolbar>
+              <Switch>
+                <Route exact path="/">
+                  <Home />
+                </Route>
+                <Route path="/resume">
+                  <Resume />
+                </Route>
+                <Route path="/projects">
+                  <Projects />
+                </Route>
+              </Switch>
         </h2>
       </Router>
 );
