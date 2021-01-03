@@ -57,14 +57,39 @@ import React from 'react';
                 <h2>
                     United States Navy, Goose Creek, SC
                     <h3>
-                        Software Developer Intern/Front-End Developer
+                        Nuclear Field Electronics Technician
                     </h3>
+                    <ul>
+                        <li>
+                            Trained to operate a nuclear reactor on submarines.
+                        </li>
+                        <li>
+                            Trained to troubleshoot any type of electrical or computer problem
+                        </li>
+                        <li>
+                            Performed electrical troubleshooting to various circuit board components to determine faults in systems
+                        </li>
+                        <li>
+                            Verified that all paperwork was filled out 100% correctly, logging every activity or task that group completed
+                        </li>
+                    </ul>
                 </h2>
                 <h2>
                     Rave Sports, Eagan, MN 
                     <h3>
-                        Software Developer Intern/Front-End Developer
+                        General Warehouse/Repairs Specialist 
                     </h3>
+                    <ul>
+                        <li>
+                            Ensured correct items were shipped to customers
+                        </li>
+                        <li>
+                            Used and repaired RF(radio frequency) scanners to maximize efficiency
+                        </li>
+                        <li>
+                            Received repairs from customers into the warehouse and used a variety of techniques to repair and problem solve issues found upon inspection
+                        </li>
+                    </ul>
                 </h2>
 
                 
