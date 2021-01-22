@@ -1,12 +1,9 @@
 .App {
   text-align: center;
-  //background-color : rgb(115, 255, 0);
   background-image: url('./images/background.jpg');
 }
 
-body {
-  background-color: red;
-}
+
 
 h1 {
   color: white;
@@ -23,7 +20,7 @@ h1 {
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -32,12 +29,12 @@ h1 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
-
+} */
+/* 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -56,4 +53,4 @@ h1 {
 
 .custom-btn-toolbar > .btn {
   margin-right: 1rem;
-}
+} */

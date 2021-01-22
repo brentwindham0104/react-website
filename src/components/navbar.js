@@ -7,7 +7,8 @@ import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import { LinkContainer } from 'react-router-bootstrap';
 import Home from './home';
-import '../App.css';
+//import '../App.css';
+import './navbar.css';
 import Resume from './resume.js';
 
 function Homes() {
@@ -31,21 +32,21 @@ const Navbar = () => (
     //<span>Home</span> 
     
       <Router>
-        <h1 className="header">Welcome To My Website</h1>
+        
         <h2>
-              <nav className="nav-links">
-                  <ul>
-                      <li>
+              <nav>
+                  <ul className="navbar">
+                      <li  className="nav-link">
                         <Link to="/">
                             Home
                         </Link>
                       </li>
-                      <li>
+                      <li className="nav-link">
                         <Link to="/resume">
                             Resume
                         </Link>
                       </li>
-                      <li>
+                      <li className="nav-link">
                         <Link to="/projects">
                             Projects
                         </Link>
