@@ -1,19 +1,18 @@
 import React from 'react';
+import './resume.css';
 
  function Resume() {
-    return <div>
-                <h1>
-                    Resume Page
-                </h1>
+    return <div className="resume-div">
+                
 
                 <h1>Profile: </h1>
                 <ul>
-                    <li>U.S. Navy veteran honorably discharged – Nuclear Field</li>
-                    <li>Bachelor’s Degree in Computer Science </li>
+                    <li className="profile-li">U.S. Navy veteran honorably discharged – Nuclear Field</li>
+                    <li className="profile-li">Bachelor’s Degree in Computer Science </li>
                 </ul>
                 <h1>Education</h1>
                 <ul>
-                    <li>
+                    <li className="profile-li">
                         Metropolitan State University
                         <ul>
                             <li>
@@ -24,7 +23,7 @@ import React from 'react';
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li className="profile-li">
                         Century College
                         <ul>
                             <li>

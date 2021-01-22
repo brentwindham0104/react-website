@@ -1,0 +1,22 @@
+ .resume-div {
+   /* border-style: solid;
+     border-color: red; */
+    padding-left: 75px;
+    padding-top: 30px;;
+}
+
+.resume-div h1 {
+    color:Black;
+    text-align: left;
+    
+}
+.resume-div h2 {
+    color:Black;
+    text-align: left;
+    
+}
+.profile-li{
+    color:white;
+    list-style-type: none;
+    text-align: left;
+}
